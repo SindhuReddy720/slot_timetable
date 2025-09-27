@@ -24,10 +24,131 @@ Add your timetable using ```<td>``` tag.
 Execute the program using runserver command.
 
 ## PROGRAM
+```
+<html>
+<head>
+<title>slot Timetable</title>    
+</head>
+<body bgcolour="cyan">
+<body>
+<center>
+<img src="/static/logo.png" height="100" width="540">
+</center>
+<br>
+<table align="center" width="540" cellspacing="2" cellpadding="10" border="7" bgcolor="pink">
+<caption><b>SLOT TIME TABLE -SINDHU(212224240113)</b></caption>
+<tr align="center">
+<th bgcolor="yellow">Day/Time</th>
+<th bgcolor="yellow">Monday</th>
+<th bgcolor="yellow">Tuesday</th>
+<th bgcolor="yellow">Wednesday</th>
+<th bgcolor="yellow">Thursday</th>
+<th bgcolor="yellow">Friday</th>
+<th bgcolor="yellow">Saturday</th>
+</tr>
+<tr align="center">
+<th bgcolor="yellow">8-10</th>
+<td>C</td>
+<td>VR AR</td>
+<td>UI UX</td>
+<td>MATHS</td>
+<td>-</td>
+<td>-</td>
+
+</tr>
+<tr align="center">
+<th bgcolor="yellow">10-12</th>
+<td>-</td>
+<td>HUMAN VALUES</td>
+<td>VR AR</td>
+<td>WEB</td>
+<td>APP OF AI</td>
+<td>UI UX</td>
+</tr>
+<tr>
+<th bgcolor="yellow">12-1</th>
+<td colspan="6" align="center">L U N C H</td>
+</tr>
+<tr align="center">
+<th bgcolor="yellow">1-3</th>
+<td>MATHS</td>
+<td>MATHS</td>
+<td>MENTOR</td>
+<td>C</td>
+<td>RA</td>
+<td>WEB</td>
+</tr>
+<tr align="center">
+<th bgcolor="yellow">3-5</th>
+<td>-</td>
+<td>ML</td>
+<td>-</td>
+<td>APP OF AI</td>
+<td>ML</td>
+<td>-</td>
+
+</tr>
+</table>
+<br>
+<table align="center" cellspacing="3" cellpadding="4" border="2" bgcolor="blue">
+<tr align="center">
+<th>s. No.</th>
+<th>Subject Code</th>
+<th>Subject Name</th>
+</tr>
+<tr>
+<td align="center">1.</td>
+<td align="center">19AI304</td>
+<td>Fundamentals of C programming</td>
+</tr>
+<tr>
+<td align="center">2.</td>
+<td align="center">19AI410</td>
+<td>Introduction to Machine Learning</td>
+</tr>
+<tr>
+<td align="center">3.</td>
+<td align="center">19AI414</td>
+<td>Fundamentals of Web Application Development</td>
+</tr>
+<tr>
+<td align="center">4.</td>
+<td align="center"> 19AI509</td>
+<td>Concepts of Virtual and Augmented Reality</th>
+</tr>
+<tr>
+<td align="center">5.</td>
+<td align="center">19AI801</td>
+<td>Artificial Intelligence and Application</td>
+</tr>
+<tr>
+<td align="center">6.</td>
+<td align="center">19CS549</td>
+<td>UI and UX design</td>
+</tr>
+<tr>
+<td align="center">7.</td>
+<td align="center">19EY709</td>
+<td>Reasoning Ability<td>
+</tr>
+<tr>
+<td align="center">8.</td>
+<td align="center">19HS801</td>
+<td>Human Values and Professional Ethics<td>
+</tr>
+<tr>
+<td align="center">9.</td>
+<td align="center">19MA220</td>
+<td>Mathematics for Artificial Intelligence<td>
+</tr>
+</table>
+</body>
+</html>
+```
 
 
 ## OUTPUT
-
+![alt text](<Screenshot 2025-09-25 202836.png>)
 
 ## RESULT
 The program for creating slot timetable using basic HTML tags is executed successfully.
